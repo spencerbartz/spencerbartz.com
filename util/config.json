@@ -1,8 +1,8 @@
 {
 	"app_info": {
-		"db_host": "spencerbartzcom1.ipagemysql.com",
-		"db_user": "spencer",
-		"db_pass": "B1tchN199@",
-		"root_dir": "ipg.spencerbartzcom1"
+		"db_host": "your_database_host_dot_com",
+		"db_user": "your_user",
+		"db_pass": "your_password",
+		"root_dir": "your_root_directory_on_web_hosting"
 	}
 }
