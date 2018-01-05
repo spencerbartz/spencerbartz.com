@@ -1,0 +1,1 @@
+A forum web application made with PHP, MySQL, and JavaScript. Users can register, start new threads, post comments, edit comments, and delete comments. The server-side code is written in a mostly functional style. I tried to give a more space age feel to the front end, without using a single image file in my design.

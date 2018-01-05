@@ -1,0 +1,6 @@
+A Facebook-ish, JavaScript / CSS3 comment UI that stores local data in case of periodic connection loss. Pre-filled comments and users are loaded from server-side JSON files.
+
+You are logged in as user <b>id #5</b>, "Daniel Craig." 
+You can post, comment, and comment on other people's posts.
+
+All comments should persist even after closing the tab or browser. To clear the comments manually, open a JS console, then run <b>Box.empty()</b> and refresh the page.

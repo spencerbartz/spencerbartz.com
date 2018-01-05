@@ -1,0 +1,3 @@
+CopyCat is a Client / Server application that enables clients to transfer files over TCP to a server. Currently both the client and server are 
+command line with a number of flags available (to change the default server port, and to select which files to send). File transfers, errors, warnings etc. 
+are logged on both the client and server side according to 5 levels of severity. The source code is available as a <a href="https://github.com/spencerbartz/copycat">GitHub repository.</a>

@@ -1,0 +1,11 @@
+body {
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(rgba(0,20,225,1),rgba(0,20,225,0)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(rgba(0,20,225,1),rgba(0,0,225,0)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(rgba(0,20,225,1),rgba(0,0,225,0));  /*Fx 3.6-15*/
+  background: linear-gradient(rgba(0,20,225,1),rgba(0,0,255,0));  /*Standard*/
+}
+
+a {
+	color: white;
+}

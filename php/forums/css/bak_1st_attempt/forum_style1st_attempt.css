@@ -1,0 +1,295 @@
+body 
+{
+	background-color: 000000; 
+	color:00ff00;
+	scrollbar-arrow-color: 00ff00;
+	scrollbar-base-color: black;   
+	scrollbar-dark-shadow-color: blue;
+	scrollbar-3dlight-color:black;
+	scrollbar-face-color: 1f5171;
+	scrollbar-highlight-color: blue;
+	scrollbar-shadow-color: blue;
+	scrollbar-darkshadow-color: black;
+	font-family: arial; 
+}
+
+div.header
+{
+	display:inline-block;
+	text-shadow: 0 0 10px #0000ff, 0 0 20px #0000ff, 0 0 30px #0000ff, 0 0 40px #00ff00, 0 0 70px #00ff00, 0 0 80px #00ff00, 0 0 100px #00ff00, 0 0 150px #00ff00;
+	border-style:solid;
+	border-width:5px;
+	border-color:#0000ff;
+	margin:4px;
+	padding:10px;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	-khtml-border-radius:42px;
+	behavior: url(css/border-radius.htc);
+	border-radius: 42px;
+}
+
+div.header { display: inline; } /* IE6 and IE7 fix for inline-block */
+/* Set display back for sane browsers */
+html > /**/ body div.header { display: inline-block; }
+
+div.footer 
+{
+	display: inline-block;
+  	font-style: italic;
+  	font-size: 75%;
+	border-style:solid;
+	border-width:5px;
+	border-color:#0000ff;
+	margin:4px;
+	padding:10px;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	-khtml-border-radius:42px;
+	behavior: url(css/border-radius.htc);
+	border-radius: 42px;
+}
+div.footer { display: inline; } /* IE6 and IE7 fix for inline-block */
+/* Set display back for sane browsers */
+html > /**/ body div.footer { display: inline-block; }
+
+
+div.table_container
+{
+	display:inline-block;
+	border-style:solid;
+	border-width:5px;
+	border-color:#0000ff;
+	width: 75%;
+	margin:4px;
+	padding:10px;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	-khtml-border-radius:42px;
+	behavior: url(css/border-radius.htc);
+	border-radius: 42px;
+}
+
+div.table_container { display: inline; } /* IE6 and IE7 fix for inline-block */
+/* Set display back for sane browsers */
+html > /**/ body div.table_container { display: inline-block; }
+
+div.forumlist_table_container
+{
+	display:inline-block;
+	border-style:solid;
+	border-width:5px;
+	border-color:#0000ff;
+	width: 60%;
+	margin:4px;
+	padding:10px;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	-khtml-border-radius:42px;
+	behavior: url(css/border-radius.htc);
+	border-radius: 42px;
+}
+
+div.forumlist_table_container { display: inline; } /* IE6 and IE7 fix for inline-block */
+/* Set display back for sane browsers */
+html > /**/ body div.forumlist_table_container { display: inline-block; }
+
+div.form_container
+{
+	display: inline-block;
+	width:25%;
+	border-style:solid;
+	border-width:5px;
+	border-color:#0000ff;
+	margin:4px;
+	padding:10px;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	-khtml-border-radius:42px;
+	behavior: url(css/border-radius.htc);
+	border-radius: 42px;
+}
+
+div.form_container { display: inline; } /* IE6 and IE7 fix for inline-block */
+/* Set display back for sane browsers */
+html > /**/ body div.form_container { display: inline-block; }
+
+div.new_post
+{
+
+  	font-style: italic;
+  	font-size: 75%;  	
+	border-style:solid;
+	border-width:5px;
+	border-color:#0000ff;
+	margin:4px;
+	padding:10px;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	-khtml-border-radius:42px;
+	behavior: url(css/border-radius.htc);
+	border-radius: 42px;
+}
+
+
+
+table.oioi
+{	
+	border:1px solid green;
+	width: 100%;
+	font-style: bold;
+	margin:4px;
+	padding:10px;
+}
+
+
+
+/* Apply padding to td elements that are direct children of the tr element. */
+td.spaceunder
+{
+  padding-bottom: 3em;
+}
+
+td
+{
+	border:1px solid green;
+}
+
+div.pod
+{
+	position: relative
+	display: inline-block;
+	border-style:solid;
+	border-width:5px;
+	border-color:#0000ff;
+	margin:4px;
+	padding:10px;
+}
+
+font
+{
+	font-family: arial; 
+}
+
+font.number
+{
+	font-weight: bolder; font-size: large;
+}
+
+A:link {text-decoration: none; color: blue;}
+A:visited {text-decoration: none; color: blue;}
+A:active {text-decoration: none; color: blue;}
+A:hover {text-decoration: none; color: blue;}
+
+a.footer:link {text-decoration: none; color: 0000ff;}
+a.footer:visited {text-decoration: none; color: 0000ff;}
+a.footer:hover {text-decoration: none; color: 00ff00;}
+a.footer:active {text-decoration: none; color: 0000ff;}
+
+DT 
+{
+  background: darkblue; 
+  width: ;
+  color: white; 
+  padding: .2em 2em .2em 2em; 
+  margin: .1%;  
+}
+
+a.forumbutton 
+{
+	-moz-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #0000ff) );
+	background:-moz-linear-gradient( center top, #3d94f6 5%, #0000ff 100% );
+	
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d94f6', endColorstr='#0000ff');
+	
+	background-color:#3d94f6;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	-khtml-border-radius:42px;
+	behavior: url(css/border-radius.htc);
+	border-radius:42px;
+	display:inline-block;
+	color:#00ff00;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #1570cd;
+}
+
+a.forumbutton:hover 
+{
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #0000ff), color-stop(1, #3d94f6) );
+	background:-moz-linear-gradient( center top, #0000ff 5%, #3d94f6 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0000ff', endColorstr='#3d94f6');
+	background-color:#0000ff;
+}
+
+a.forumbutton:active 
+{
+	position:relative;
+	top:1px;
+}
+
+div[class*="rounded"] 
+{
+    background: #fca1cc;
+}
+ 
+.light-rounded 
+{
+    border-radius: 3px;
+}
+ 
+.heavy-rounded 
+{
+    border-radius: 8px;
+}
+ 
+.full-rounded 
+{
+    border-radius: 50%;
+}
+ 
+.barrel-rounded 
+{
+    border-radius: 20px/60px;
+}
+
+.forum-rounded
+{
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	-khtml-border-radius:42px;
+	behavior: url(css/border-radius.htc);
+	border-radius: 42px;
+}
+
+textarea
+{
+    font-family: arial; 
+    font-weight:bold;
+    padding:6px 10px;
+    color:#00ff00; 
+    background-color: #5555ef;
+}
+
+.rounded-corners 
+{
+	display: inline-block;
+	border-style:solid;
+	border-width:5px;
+	border-color:#0000ff;	
+	margin:4px;
+	padding:10px;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	-khtml-border-radius:42px;
+	behavior: url(css/border-radius.htc);
+	border-radius: 42px;
+}
+

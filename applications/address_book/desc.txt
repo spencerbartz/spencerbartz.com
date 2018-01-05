@@ -1,0 +1,1 @@
+Contact list that stores [Email, Phone, Address] entries in a linked list internally. Users can add, delete, and edit contacts through the GUI. The contents of the Address Book can be saved to a file and read in at a later time so that your contact list persists.

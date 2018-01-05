@@ -1,0 +1,2 @@
+﻿SimpleDraw 2.1 is an MS-Paint style graphics program. It offers the safety and stability of a Desktop App without the overhead of browser-based security exceptions. Download the <b>.jar</b> file and double click it to run SimpleDraw 2.1. If your system is not configured to execute .jar files, run it from a terminal like this: 
+<strong>$java -jar simpledraw2.1.jar</strong>

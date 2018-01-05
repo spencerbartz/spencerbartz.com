@@ -1,0 +1,1 @@
+What can be more exciting than sockets?! This is my socket library which, while more difficult to use than Java's socket package, is easy enough to use as an API so that developers need not worry abou the details. This project does include logging, therefore it requires the loggerutils library. Both projects will bundled.

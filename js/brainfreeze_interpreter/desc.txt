@@ -1,0 +1,1 @@
+"Brainfreeze" is turing-complete programming language I based closely on its more <a href="https://en.wikipedia.org/wiki/Brainfuck">vulgar cousin</a>, which I shall not name. The interpreter is 100% JavaScript and both parses and executes Brainfreeze source. I wrote a recursive descent parser in JS to handle scoping and context within BrainFreeze programs.

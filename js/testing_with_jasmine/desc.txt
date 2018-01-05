@@ -1,0 +1,1 @@
+Front end testing using Jasmine with ES6. The tests are written against various endpoints of <a href="http://httpbin.org">httpbin.org</a>. Asynchronous requests are handled using promises and Jasmine's "done()" method. The tests are run automatically when you visit <a href="https://jsfiddle.net/v8psynzm/101/">this jsfiddle</a>

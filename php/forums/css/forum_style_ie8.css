@@ -1,0 +1,160 @@
+body 
+{
+	background-color: 000000; 
+	color:00ff00;
+	scrollbar-arrow-color: 00ff00;
+	scrollbar-base-color: black;   
+	scrollbar-dark-shadow-color: blue;
+	scrollbar-3dlight-color:black;
+	scrollbar-face-color: 1f5171;
+	scrollbar-highlight-color: blue;
+	scrollbar-shadow-color: blue;
+	scrollbar-darkshadow-color: black;
+	font-family: arial; 
+}
+
+input
+{
+	font-family: arial;                
+}
+
+div.footer 
+{
+	clear: both;
+	font-style: italic;
+	font-size: 75%;
+}
+
+table
+{
+	border-style:solid;
+	border-width:1px;
+	border-color:#00ff00;
+}
+
+td
+{
+	border-style:solid;
+	border-width:1px;
+	border-color:#00ff00;
+}
+
+tr.colorpost
+{
+	background-color:#111155;
+}
+
+table.forum_table
+{
+	/*position: relative; left: auto; right: auto; height: auto; width: auto;*/
+	font-style: bold;
+	margin:4px;
+	padding:10px;
+}
+
+/*Container for header messages: Welcome to <Name of Forum Website>, Welcome to <individual forum name>, Welcome to the <topic name> in the <forum name> forum*/
+div.header
+{
+	display: inline-block;
+	border-style:solid;
+	border-width:5px;
+	border-color:#0000ff;
+	margin:4px;
+	padding:10px;
+
+	/*Rounded Border*/
+	behavior: url(css/border-radius.htc);
+	border-radius:42px;
+}
+
+/* Container for tables - forum list, topic list, posts*/
+div.table_container
+{
+	display: inline-block;
+	border-style:solid;
+	border-width:5px;
+	border-color:#0000ff;
+	margin:4px;
+	padding:10px;
+
+	/*Rounded Border*/
+	behavior: url(css/border-radius.htc);
+	border-radius:42px;
+}
+
+/* Container for hidden text area div */
+div.new_post
+{
+	display: inline-block;
+	
+	border-style:solid;
+	border-width:5px;
+	border-color:#0000ff;
+	margin:4px;
+	padding:10px;
+	/*behavior: url(css/border-radius.htc);*/
+	border-radius:42px;
+}
+
+A:link {text-decoration: none; color: blue;}
+A:visited {text-decoration: none; color: blue;}
+A:active {text-decoration: none; color: blue;}
+A:hover {text-decoration: none; color: blue;}
+
+a.footer:link {text-decoration: none; color: 0000ff;}
+a.footer:visited {text-decoration: none; color: 0000ff;}
+a.footer:hover {text-decoration: none; color: 00ff00;}
+a.footer:active {text-decoration: none; color: 0000ff;}
+
+/*try and fix this shit for IE8 and below*/
+a.forumbutton 
+{
+	-moz-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #0000ff) );
+	background:-moz-linear-gradient( center top, #3d94f6 5%, #0000ff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d94f6', endColorstr='#0000ff');
+	background-color:#3d94f6;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	display:inline-block;
+	color:#00ff00;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #1570cd;
+}
+
+a.forumbutton:hover 
+{
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #0000ff), color-stop(1, #3d94f6) );
+	background:-moz-linear-gradient( center top, #0000ff 5%, #3d94f6 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0000ff', endColorstr='#3d94f6');
+	background-color:#0000ff;
+}
+
+a.forumbutton:active 
+{
+	position:relative;
+	top:1px;
+}
+
+
+.forum-rounded
+{
+	behavior: url(css/border-radius.htc);
+	border-radius:30px;
+}
+
+textarea
+{
+    font-family: arial; 
+    font-weight:bold;
+    padding:6px 10px;
+    color:#00ff00; 
+    background-color: #5555ef;
+}

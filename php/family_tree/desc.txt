@@ -1,0 +1,1 @@
+Family Tree is a family photo archive application using PHP, MySQL, and Javascript. Users can create a new family tree, add family members, upload photos, and edit photo descriptions and basic information. Visualize your past, today!

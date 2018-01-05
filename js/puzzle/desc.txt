@@ -1,0 +1,1 @@
+This one is something I cooked up while living in Japan. There isn't major functionality yet but it has potential. Grab a puzzle piece by clicking it, then click again to drop it in place. You should see a picture, but unfortunately there is no prize yet.

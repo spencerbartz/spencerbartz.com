@@ -1,0 +1,3 @@
+XML validator allows users to copy paste XML code or open an XML document and proceeds to check that the 
+nesting and form of the XML tags is valid. Parsing is performed using my own String functions (no libraries!)
+and nesting validation is conducted using a stack-based method.

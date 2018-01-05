@@ -1,0 +1,2 @@
+If you're a rookie C programmer and you're sick of debugging by printf, try using
+my home made logger library! The logger is written entirely in C and can easily be incorporated into any C file using the standard #include directive.

@@ -1,0 +1,110 @@
+/*
+ * styles.css
+ *  CSS styling for BrainFreeze interpreter
+ * 
+ */
+
+html {
+	height: 100%;
+}
+
+body {
+	background: rgb(167,199,220); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(167,199,220,1) 0%, rgba(133,178,211,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(167,199,220,1)), color-stop(100%,rgba(133,178,211,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(167,199,220,1) 0%,rgba(133,178,211,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(167,199,220,1) 0%,rgba(133,178,211,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(167,199,220,1) 0%,rgba(133,178,211,1) 100%); /* IE10+ */
+	background: linear-gradient(top,  rgba(167,199,220,1) 0%,rgba(133,178,211,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7c7dc', endColorstr='#85b2d3',GradientType=0 ); /* IE6-9 */
+	font-size: 13px;
+	min-width: 800px;
+}
+
+br {
+	clear: left;
+}
+
+#header {
+	background: rgba( 0, 0, 0, 0.7);
+	padding: 10px 5px;
+	height: 120px;
+	box-shadow: 0px 1px 5px #fff;
+}
+
+/* div to hold logo */
+#header-container {
+    text-align: center; 
+    position: relative;
+    height: auto;
+    width: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    overflow: hidden;
+}
+
+/*logo in header*/
+#logo {  
+    display: inline;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+h3 {
+    display: inline;
+}
+
+textarea {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    width: 300px;
+    height: 150px;
+    outline: none;
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid #DDDDDD;
+    display: block;
+}
+
+/* Shadow effect on focus */
+textarea:focus {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid rgba(81, 203, 238, 1);
+}
+
+/*Rounded Corners*/
+.rounded {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#main-content {
+    margin-top: 25px;
+    text-align: center;
+}
+
+#interpreter, #converter, #instructions {
+    border: 1px solid #6FD6F7;
+    display: inline-block;
+    background: #F7F7F7;
+    width: auto;
+    vertical-align: top;
+    text-align: left;
+    margin: 0px 10px;
+    padding: 5px 5px 5px 5px;
+	font-family: Arial
+}
+
+.footer {
+    text-align: center;
+}
+
+#description {
+	color: black;
+	width: 310px;
+}
