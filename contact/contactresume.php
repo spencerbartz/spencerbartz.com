@@ -55,7 +55,7 @@
         	echo _("Phone: (805) 886-2293<br/>");
         	echo _('Email: <a href="mailto:spencerbartz@gmail.com">spencerbartz@gmail.com</a><br/>');
         	echo _('Skype: <a href="skype:spencerpbartz?call">spencerpbartz</a><br/>');
-        	echo _('Résumé: <a href="spencer_bartz_resume.doc" download="spencer_bartz_resume.doc">Download in .doc format</a><br/>');
+        	echo _('Résumé: <a href="spencer_bartz_resume.docx" download="spencer_bartz_resume.doc">Download in .docx format</a><br/>');
         	echo _('View my repositories on <a href="https://github.com/spencerbartz?tab=repositories">Git Hub</a>');
         	echo _('</strong>');
         ?>
