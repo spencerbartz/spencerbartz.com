@@ -62,7 +62,7 @@
 		$DS = DIRECTORY_SEPARATOR;
 		//Parallel Arrays to hold user names and internal names
 		$fileNames = array("index.php", "js" . $DS . "jsindex.php", "php" .  $DS . "phpindex.php", "applications" . $DS . "applicationindex.php", "python" . $DS . "pyindex.php",  "c" . $DS . "cindex.php");
-		$dispNames = array(_("Home"), _("JavaScript"), _("Full Stack  LAMP Apps"), _("Java Apps"), _("Python"), _("C Programming"));
+		$dispNames = array(_("Home"), _("JavaScript"), _("Full Stack PHP Apps"), _("Java Apps"), _("Python"), _("C Programming"));
 
 		$path = get_relative_root_path($file);
 		$parts = explode($DS, $file);
