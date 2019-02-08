@@ -45,7 +45,7 @@
     <!-- Left Side (Main Content)-->
     <div id="main">
       <div class="box">
-        <h1>Full Stack LAMP Applications <span class="white">Projects</span></h1>
+        <h1>PHP<span class="white">Projects</span></h1>
         <p>
 		<?php
 			echo _('This page contains PHP projects I built using Linux, Apache, MySQL, and PHP (LAMP). ' .
