@@ -33,7 +33,7 @@
 <!-- content-wrap starts here -->
 <div id="content-wrap">
   <div id="content">
-  
+
     <!-- Right side search box area -->
     <div id="sidebar" >
       <div class="sidebox" id="searchbox">
@@ -41,14 +41,14 @@
       </div>
       <div class="sep"></div>
     </div>
-    
+
     <!-- Left Side (Main Content)-->
     <div id="main">
       <div class="box">
         <h1>Full Stack LAMP Applications <span class="white">Projects</span></h1>
         <p>
 		<?php
-			echo _('This page contains Full-Stack LAMP projects I have programmed using Linux, Apache, MySQL, and PHP. ' .
+			echo _('This page contains PHP projects I built using Linux, Apache, MySQL, and PHP (LAMP). ' .
 							'Each project consists of MySQL, PHP, JavaScript, CSS3, and HTML5. With these apps I hope to illustrate '.
 							'my skills in full stack development.');
 			?>
